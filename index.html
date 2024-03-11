@@ -1,0 +1,117 @@
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts\jquery-3.7.1.min.js"></script>
+</head>
+
+<body onload="">
+    <header class="title container">
+        <div class="slideshow container">
+            <div class="slide fade">
+                <img src="assets/Cover_1.png">
+            </div>
+            <div class="slide fade">
+                <img src="assets/Cover_2.png">
+            </div>
+            <div class="slide fade">
+                <img src="assets/Cover_3.png">
+            </div>
+            <div class="slide fade">
+                <img src="assets/Cover_4.png">
+            </div>
+            <div class="slide fade">
+                <img src="assets/Cover_5.png">
+            </div>
+        </div>
+
+        <div class="dots container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+
+
+        <script src='scripts\intro_select.js'></script>
+
+        <div class="arrow bounce"></div>
+    </header>
+
+    <!-- Introduction -->
+    <div class="intro container">
+        <img src="assets/Introduction.png" alt="Intro Banner">
+    </div>
+
+
+    <!-- video -->
+    <div class="video container">
+        <img src="assets/Video.png" alt="Intro Banner">
+        <iframe src="https://www.youtube.com/embed/yj7qRSgK6ZE?si=AQa8BqbtbDtGW8Eg" title="47 Seconds about Astigmatism"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class='did-you-know container'>
+        <img src="assets/DYK.png">
+    </div>
+
+    <div class='myths container'>
+        <img src="assets/Myth.png">
+    </div>
+
+
+    <div class='simulation'>
+        <img class="title-card" src="assets/Simulation Title.png">
+        <div class="simulation-container-row">
+            <div class="slider-container">
+                <div class='img background-img' style='background-image: url(assets/simulation/BRIDGE_1.png)'>
+                </div>
+                <div class='img foreground-img' id="foreground-1"
+                    style='background-image: url(assets/simulation/BRIDGE_2.png)'>
+                </div>
+                <input type="range" min="0" max="100" value="50" class="slider" name='slider' id="slider-1">
+                <div class='slider-button' id="slider-button-1"></div>
+            </div>
+        </div>
+
+        <div class="simulation-container-row">
+            <div class="slider-container">
+                <div class='img background-img' style='background-image: url(assets/simulation/MERLION_1.png)'>
+                </div>
+                <div class='img foreground-img' id="foreground-2"
+                    style='background-image: url(assets/simulation/MERLION_2.png)'>
+                </div>
+                <input type="range" min="0" max="100" value="50" class="slider" name='slider' id="slider-2">
+                <div class='slider-button' id="slider-button-2"></div>
+            </div>
+        </div>
+
+        <div class="simulation-container-row">
+            <div class="slider-container">
+                <div class='img background-img' style='background-image: url(assets/simulation/FLOWER_1.png)'>
+                </div>
+                <div class='img foreground-img' id="foreground-3"
+                    style='background-image: url(assets/simulation/FLOWER_2.png)'>
+                </div>
+                <input type="range" min="0" max="100" value="50" class="slider" name='slider' id="slider-3">
+                <div class='slider-button' id="slider-button-3"></div>
+            </div>
+        </div>
+
+        <div class="simulation-container-row">
+            <div class="slider-container">
+                <div class='img background-img' style='background-image: url(assets/simulation/BIG\ BEN_1.png)'>
+                </div>
+                <div class='img foreground-img' id="foreground-4"
+                    style='background-image: url(assets/simulation/BIG\ BEN_2.png)'>
+                </div>
+                <input type="range" min="0" max="100" value="50" class="slider" name='slider' id="slider-4">
+                <div class='slider-button' id="slider-button-4"></div>
+            </div>
+        </div>
+
+
+    <script src="scripts\simulation.js"></script>
+    <script src="scripts\arrow_fade.js"></script>
+</body>
