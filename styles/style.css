@@ -124,7 +124,7 @@ header {
     width: 75%;
     margin-top: -59%;
     position: absolute;
-    border: none;
+    border: 5px solid white;
 }
 
 /* simulation */
@@ -134,7 +134,7 @@ header {
 }
 
 .simulation .title-card {
-    width: 100%;
+    width: auto;
     height: fit-content;
 }
 
